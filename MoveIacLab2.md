@@ -14,4 +14,4 @@ Navigate to the
 <img src="images/Lab1_1.jpg" width="624"/>
 
 
-[Lab 1: Create a virtual machine in the portal](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/MoveIacLab1.md) | [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/MoveIacLab3.md)
+[Lab 1: Create a virtual machine in the portal](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md) | [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md)

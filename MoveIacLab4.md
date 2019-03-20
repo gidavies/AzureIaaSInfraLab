@@ -14,4 +14,4 @@ Navigate to the
 <img src="images/Lab1_1.jpg" width="624"/>
 
 
-[Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/MoveIacLab3.md) | [Lab 5: IaaS Automation](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/MoveIacLab5.md)
+[Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md) | [Lab 5: IaaS Automation](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab5.md)

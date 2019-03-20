@@ -14,4 +14,4 @@ Navigate to the
 <img src="images/Lab1_1.jpg" width="624"/>
 
 
-[Lab 2: Work with an ARM template from an existing resource](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/MoveIacLab2.md) | [Lab 4: Failover between regions](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/MoveIacLab4.md)
+[Lab 2: Work with an ARM template from an existing resource](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab2.md) | [Lab 4: Failover between regions](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab4.md)
