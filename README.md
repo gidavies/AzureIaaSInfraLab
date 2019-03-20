@@ -21,4 +21,4 @@ For this lab it is assumed that you have:
 - An Azure subscription (your own or a [free trial](https://azure.microsoft.com/en-us/free/)).
 - A text or code editor such as [Visual Studio Code](https://code.visualstudio.com/). 
 
-[Lab 1: Create the basic pipeline ->](https://github.com/gidavies/AzureDevOpsLab/blob/master/AzureDevOpsLab1.md)
+[Lab 1: Create a virtual machine in the portal ->](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/IaasIaCLab1.md)
