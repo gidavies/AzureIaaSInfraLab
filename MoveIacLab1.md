@@ -14,4 +14,4 @@ Navigate to the
 <img src="images/Lab1_1.jpg" width="624"/>
 
 
-[<- Introduction](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/README.md) | [Lab 2: Work with an ARM template from an existing resource](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/MoveIaCLab2.md)
+[<- Introduction](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/README.md) | [Lab 2: Work with an ARM template from an existing resource](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/MoveIacLab2.md)
