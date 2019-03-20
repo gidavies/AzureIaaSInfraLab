@@ -14,6 +14,7 @@ This set of labs supports the Azure Infrastructure as a Service (IaaS) Infrastru
 - [Lab 2: Work with an ARM template from an existing resource](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/IaasIaCLab2.md)
 - [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/IaasIaCLab3.md)
 - [Lab 4: Failover between regions](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/IaasIaCLab4.md)
+- [Lab 5: IaaS Automation](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/IaasIaCLab5.md)
 
 # Pre-requisites for the lab
 
