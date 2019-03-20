@@ -10,10 +10,10 @@ This set of labs supports the Azure Infrastructure as a Service (IaaS) Infrastru
 
 # Overall flow
 
-- [Lab 1: Create the basic pipeline](https://github.com/gidavies/AzureDevOpsLab/blob/master/AzureDevOpsLab1.md)
-- [Lab 2: Exploring the created Azure DevOps build pipeline](https://github.com/gidavies/AzureDevOpsLab/blob/master/AzureDevOpsLab2.md)
-- [Lab 3: Exploring the created Azure DevOps release pipeline](https://github.com/gidavies/AzureDevOpsLab/blob/master/AzureDevOpsLab3.md)
-- [Lab 4: Agile planning with Azure Boards](https://github.com/gidavies/AzureDevOpsLab/blob/master/AzureDevOpsLab4.md)
+- [Lab 1: Create a virtual machine in the portal](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/IaasIaCLab1.md)
+- [Lab 2: Work with an ARM template from an existing resource](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/IaasIaCLab2.md)
+- [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/IaasIaCLab3.md)
+- [Lab 4: Failover between regions](https://github.com/gidavies/AzureIaaSInfraLab/blob/master/IaasIaCLab4.md)
 
 # Pre-requisites for the lab
 
