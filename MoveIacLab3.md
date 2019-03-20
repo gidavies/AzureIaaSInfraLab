@@ -1,4 +1,4 @@
-# Lab 1: Creating ARM templates from scratch
+# Lab 3: Creating ARM templates from scratch
 
 This lab will create a working release pipeline using Azure DevOps that will form the basis of the later labs.
 

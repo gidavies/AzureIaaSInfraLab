@@ -1,4 +1,4 @@
-# Lab 1: IaaS Automation
+# Lab 5: IaaS Automation
 
 This lab will create a working release pipeline using Azure DevOps that will form the basis of the later labs.
 
