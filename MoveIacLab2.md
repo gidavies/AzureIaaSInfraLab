@@ -76,13 +76,13 @@ This appears to be an incorrect error and the virtual machine will be successful
 
 3. Line 40 add this parameter (note comma before):
 
-'''javascript
+```javascript
 ,
         "virtualmachineSize": {
             "defaultValue": "Standard_DS1_v2",
             "type": "String"
         }
-'''
+```
 
 <img src="images/Lab2_12.jpg" width="624"/>
 
