@@ -76,7 +76,7 @@ This appears to be an incorrect error and the virtual machine will be successful
 
 3. Line 40 add this parameter (note comma before):
 
-'''json
+'''javascript
 ,
         "virtualmachineSize": {
             "defaultValue": "Standard_DS1_v2",
