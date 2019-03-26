@@ -64,28 +64,54 @@ This appears to be an incorrect error and the virtual machine will be successful
 
 7. Optionally RDP in to the virtual machine to validate the deployment. You can also stop the VM and/or delete the resource group just created now as this is no longer needed. You can redeploy in the same way whenever you want from the template library.
 
-## Part 3: Editing the template
+## Part 3: Editing the template parameters to provide allowed values
 
-1. Open ARM template for editing
+1. In the template library open the ARM template for editing (Edit | ARM Template). Maximise the editing window to make it easier to work on the file:
 
 <img src="images/Lab2_11.jpg" width="624"/>
 
-2. Observe vm size hard coded line 53
+2. Notice that the virtual machine size is hardcoded at line 52 in the ARM template to be a Standard_DS1_v2:
 
 <img src="images/Lab2_12.jpg" width="624"/>
 
-3. Line 40 add this parameter (note comma before):
+3. We want to provide a list of sizes that may be used. First that requires a new parameter in the ARM template file. At the end of the current parameters we will add a new VM size parameter. At line 40 add the following, noting that the final existing parameter needs to have a comma added after it as it is no longer the last member of the parameters array:
 
 ```javascript
         ,
         "virtualmachineSize": {
             "defaultValue": "Standard_DS1_v2",
-            "type": "String"
+            "type": "String",
+            "allowedValues": [
+                "Standard_DS1_v2",
+                "Standard_DS2_v2",
+                "Standard_DS3_v2"
+            ]
         }
 ```
-
 <img src="images/Lab2_13.jpg" width="624"/>
 
+This adds a new parameter that provides three size options for the VM.
 
+4. Next the parameter needs to be used in the main body of the ARM template. Go to line 62 (used to be line 52 before adding the parameter above):
+
+<img src="images/Lab2_13_1.jpg" width="624"/>
+
+and replace that line with the following:
+
+```javascript
+"vmSize": "[parameters('virtualmachineSize')]"
+```
+
+<img src="images/Lab2_13_2.jpg" width="624"/>
+
+This is now taking it's value from the newly added parameter. Click OK and then Save.
+
+<img src="images/Lab2_14.jpg" width="624"/>
+
+5. Click Deploy and see that new param is there:
+
+<img src="images/Lab2_15.jpg" width="624"/>
+
+6. Try creating another VM but selecting a VM size from your options. Again, create a new resource group, add a unique suffix to the parameters and remember to delete the resource group once you've created and validated it.
 
 [Lab 1: Create a virtual machine in the portal](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md) | [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md)
