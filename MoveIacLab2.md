@@ -68,23 +68,23 @@ This appears to be an incorrect error and the virtual machine will be successful
 
 1. Open ARM template for editing
 
-<img src="images/Lab2_10.jpg" width="624"/>
+<img src="images/Lab2_11.jpg" width="624"/>
 
 2. Observe vm size hard coded line 53
 
-<img src="images/Lab2_11.jpg" width="624"/>
+<img src="images/Lab2_12.jpg" width="624"/>
 
 3. Line 40 add this parameter (note comma before):
 
 ```javascript
-,
+        ,
         "virtualmachineSize": {
             "defaultValue": "Standard_DS1_v2",
             "type": "String"
         }
 ```
 
-<img src="images/Lab2_12.jpg" width="624"/>
+<img src="images/Lab2_13.jpg" width="624"/>
 
 
 
