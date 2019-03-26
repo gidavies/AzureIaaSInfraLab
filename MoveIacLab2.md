@@ -30,9 +30,9 @@ This lab will create a new Virtual Machine in order to keep the steps simpler as
 
 <img src="images/Lab2_4.jpg" width="624"/>
 
-7. You should see your template listed and you now have the start of a libary of templates from which to create new resources:
+7. You should see your template listed and you now have the start of a library of templates from which to create new resources:
 
-<img src="images/Lab2_4_1.jpg" width="624"
+<img src="images/Lab2_4_1.jpg" width="624"/>
 
 ## Part 2: Creating new resources from templates in the library
 
