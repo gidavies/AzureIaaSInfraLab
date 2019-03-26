@@ -44,13 +44,28 @@ This lab will create a new Virtual Machine in order to keep the steps simpler as
 
 <img src="images/Lab2_6.jpg" width="624"/>
 
-3. This will now create a new VM using the ARM template. Create a new resource group so that you can easily see (and later delete) everything that gets created. Notice that various parameters are exposed for you to override if you wish. You can leave the defaults:
+3. This will now create a new VM using the ARM template. Create a new resource group so that you can easily see (and later delete) everything that gets created. Notice that various parameters are exposed for you to override. In order to clearly understand what will get created add your initials as a prefix to each of the first six parameters. The remainder can be left as defaults:
 
 <img src="images/Lab2_7.jpg" width="624"/>
 
 4. Review the terms and conditions at the bottom of the page, check the box and click Purchase:
 
 <img src="images/Lab2_8.jpg" width="624"/>
+
+5. The new Virtual Machine will then be created and deployed. Note that at the time of writing you may see an error in the deployment:
+
+<img src="images/Lab2_9.jpg" width="624"/>
+
+This appears to be an incorrect error and the virtual machine will be successfully created.
+
+6. Navigate to the resource group created in the deployment and you will be able to see all of the resources created from your template:
+
+<img src="images/Lab2_10.jpg" width="624"/>
+
+7. Optionally RDP in to the virtual machine to validate the deployment. You can also stop the VM and/or delete the resource group just created now as this is no longer needed. You can redeploy in the same way whenever you want from the template library.
+
+## Part 3: Editing the template
+
 
 
 [Lab 1: Create a virtual machine in the portal](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md) | [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md)
