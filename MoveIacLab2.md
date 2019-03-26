@@ -66,6 +66,26 @@ This appears to be an incorrect error and the virtual machine will be successful
 
 ## Part 3: Editing the template
 
+1. Open ARM template for editing
+
+<img src="images/Lab2_10.jpg" width="624"/>
+
+2. Observe vm size hard coded line 53
+
+<img src="images/Lab2_11.jpg" width="624"/>
+
+3. Line 40 add this parameter (note comma before):
+
+'''json
+,
+        "virtualmachineSize": {
+            "defaultValue": "Standard_DS1_v2",
+            "type": "String"
+        }
+'''
+
+<img src="images/Lab2_12.jpg" width="624"/>
+
 
 
 [Lab 1: Create a virtual machine in the portal](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md) | [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md)
