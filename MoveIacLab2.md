@@ -22,7 +22,7 @@ The Virtual Machine created in the previous lab generates a large number of para
 
 <img src="images/Lab2_2.jpg" width="624"/>
 
-5. Give the template a name and optionally a description, and then click Save:
+5. Give the template a name and a description, and then click Save:
 
 <img src="images/Lab2_3.jpg" width="312"/>
 
@@ -62,7 +62,7 @@ This appears to be an incorrect error and the virtual machine will be successful
 
 <img src="images/Lab2_10.jpg" width="624"/>
 
-7. Optionally RDP in to the virtual machine to validate the deployment. You can also stop the VM and/or delete the resource group just created now as this is no longer needed. You can redeploy in the same way whenever you want from the template library.
+7. Optionally RDP in to the virtual machine to validate the deployment. You can also stop the VM and/or delete the resource group just created as this is no longer needed. You can redeploy in the same way whenever you want from the template library.
 
 ## Part 3: Editing the template parameters to provide allowed values
 
@@ -70,7 +70,7 @@ This appears to be an incorrect error and the virtual machine will be successful
 
 <img src="images/Lab2_11.jpg" width="624"/>
 
-2. Notice that the virtual machine size is hardcoded at line 52 in the ARM template to be a Standard_DS1_v2:
+2. Notice that the virtual machine size is hardcoded at line 53 in the ARM template to be a Standard_DS1_v2:
 
 <img src="images/Lab2_12.jpg" width="624"/>
 
@@ -92,7 +92,7 @@ This appears to be an incorrect error and the virtual machine will be successful
 
 This adds a new parameter that provides three size options for the VM.
 
-4. Next the parameter needs to be used in the main body of the ARM template. Go to line 62 (used to be line 52 before adding the parameter above):
+4. Next the parameter needs to be used in the main body of the ARM template. Go to line 62 (used to be line 53 before adding the parameter above):
 
 <img src="images/Lab2_13_1.jpg" width="624"/>
 
@@ -106,9 +106,9 @@ and replace that line with the following:
 
 This is now taking it's value from the newly added parameter. Click OK and then Save.
 
-<img src="images/Lab2_14.jpg" width="624"/>
+<img src="images/Lab2_14.jpg" width="312"/>
 
-5. Click Deploy and see that new param is there:
+5. Click Deploy and see that new parameter is shown and the allowed values are listed:
 
 <img src="images/Lab2_15.jpg" width="624"/>
 
