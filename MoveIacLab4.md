@@ -4,35 +4,35 @@
 
 1. Load Visual Studio (Community Edition available for free here)
  
-<img src="images/Lab4_1.jpg" width="312"/>
+<img src="images/Lab4_1.png" width="312"/>
 
 2. Click File > New > Project
 
-<img src="images/Lab4_2.jpg" width="312"/>
+<img src="images/Lab4_2.png" width="312"/>
 
 3. Choose ‘ASP.net Core Web Application’
 
-<img src="images/Lab4_3.jpg" width="312"/>
+<img src="images/Lab4_3.png" width="312"/>
 
 4. Give the project a name that’s easy to identify
  
-<img src="images/Lab4_4.jpg" width="312"/>
+<img src="images/Lab4_4.png" width="312"/>
 
 5. Choose ‘Web Application (Model-View-Controller)’ and untick ‘Enable Docker Support’ and ‘Configure for HTTPS’, then click ‘OK’
 
-<img src="images/Lab4_5.jpg" width="312"/>
+<img src="images/Lab4_5.png" width="312"/>
 
 6. If it doesn’t display automatically, click ‘View > Solution Explorer’
  
-<img src="images/Lab4_6.jpg" width="312"/>
+<img src="images/Lab4_6.png" width="312"/>
 
 7. In the Solution Explorer on the right hand side of the screen, expand Views > Home and click on ‘Index.cshtml’
 
-<img src="images/Lab4_7.jpg" width="312"/>
+<img src="images/Lab4_7.png" width="312"/>
 
 8. Select all of the default text in the left-hand pane of Visual Studio and delete it
 
-<img src="images/Lab4_8.jpg" width="312"/>
+<img src="images/Lab4_8.png" width="312"/>
 
 9. Type / paste in some basic HTML that identifies this Web App (sample below):
 
@@ -49,11 +49,11 @@
 </html>
 ```
 	 
-<img src="images/Lab4_9.jpg" width="312"/>
+<img src="images/Lab4_9.png" width="312"/>
 
 10. Click ‘Save’
 
-<img src="images/Lab4_10.jpg" width="312"/>
+<img src="images/Lab4_10.png" width="312"/>
 
 11. In ‘Solution Explorer’ right click your Web App and choose ‘Publish’
  
