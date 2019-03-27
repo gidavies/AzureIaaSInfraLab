@@ -64,6 +64,59 @@ Copy the modulesURL value (https://github.com/Azure/azure-quickstart-templates/r
 
 This VM won't be needed any longer so delete the resource group whenever you've finished to ensure minimum cost.
 
+## Part 2: Creating an ARM template in the Portal
+
+1. In the Azure Portal select Create a resource and search for Template Deployment:
+
+<img src="images/Lab3_15.jpg" width="624"/>
+
+2. Select Create on the next page:
+
+<img src="images/Lab3_16.jpg" width="624"/>
+
+3. You will see that are many options including some common templates and all the Azure QuickStart templates from Part 1 (including the IIS DSC example you used, shown selected in the screenshot). Select build your own template in the editor:
+
+<img src="images/Lab3_17.jpg" width="624"/>
+
+4. You'll then have a blank ARM template. Note that you can add resources (e.g. a virtual machine, a virtual network etc.) piece by piece or choose again from the QuickStart Templates. Select the QuickStart Template:
+
+<img src="images/Lab3_18.jpg" width="624"/>
+
+5. Search for the template used earlier by typing DSC into the field and selecting dsc-extension-iis-server-windows-vm:
+
+<img src="images/Lab3_19.jpg" width="624"/>
+
+6. Confirm by clicking OK:
+
+<img src="images/Lab3_20.jpg" width="624"/>
+
+7. The blank ARM Template has now been replaced with the one you used in the previous part above:
+
+<img src="images/Lab3_21.jpg" width="624"/>
+
+8. Edit the template to change the default VM size to "Standard_DS1_v2" and add an additional allowed value for the image SKU of "2016-Datacenter". Note that, again, the preceeding allowed value needs a comma added:
+
+<img src="images/Lab3_22.jpg" width="624"/>
+
+9. Click Save and then you will be presented with the deployment screen. Note that your changes are now showing:
+
+<img src="images/Lab3_23.jpg" width="624"/>
+
+10. If you want to then test out your changes by completing the fields and deploying a new VM. Again, the recommendation is to create a new resource group and then to delete the resource group when you are finished with it. If you select the deployment notification and click on Deployment:
+
+<img src="images/Lab3_24.jpg" width="624"/>
+
+you can also select the template and add it into the library for reuse:
+
+<img src="images/Lab3_25.jpg" width="624"/>
+
+
+
+
+
+
+
+
 
 
 
