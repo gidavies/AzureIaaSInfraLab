@@ -114,4 +114,4 @@ This is now taking it's value from the newly added parameter. Click OK and then 
 
 6. Try creating another VM but selecting a VM size from your options. Again, create a new resource group, add a unique suffix to the parameters and remember to delete the resource group once you've created and validated it.
 
-[Lab 1: Create a virtual machine in the portal](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md) | [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md)
+[Lab 1: Provision a server via the Azure Portal and use DSC to configure the IIS role](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md) | [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md)

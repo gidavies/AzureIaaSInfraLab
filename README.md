@@ -10,7 +10,7 @@ This set of labs provides the hands on element for the Moving to Infrastructure 
 
 # Overall flow
 
-- [Lab 1: Create a virtual machine in the portal](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md)
+- [Lab 1: Provision a server via the Azure Portal and use DSC to configure the IIS role](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md)
 - [Lab 2: Work with an ARM template from an existing resource](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab2.md)
 - [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md)
 - [Lab 4: Failover between regions](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab4.md)
