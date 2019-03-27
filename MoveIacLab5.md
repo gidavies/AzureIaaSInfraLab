@@ -1,17 +1,9 @@
 # Lab 5: IaaS Automation
 
-This lab will create a working release pipeline using Azure DevOps that will form the basis of the later labs.
+This lab will cover automating the provisioning of infrastructure as part of a continuous delivery pipeline using Azure DevOps.
 
+This lab needs tailoring to follow on from the existing labs but in the meantime this lab can be used:
 
-# Step 1: 
-
-In a browser navigate to the [Azure Portal](https://portal.azure.com) (https://portal.azure.com).
-
-Login with the identity associated with the Azure subscription you want to use.
-
-Navigate to the 
-
-<img src="images/Lab1_1.jpg" width="624"/>
-
+[Deploying UK Official IaaS Reference Architecture using ARM Templates and Azure DevOps](https://github.com/gidavies/AzureDevOps-UKGovRefArch)
 
 [Lab 4: Failover between regions](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab4.md)
