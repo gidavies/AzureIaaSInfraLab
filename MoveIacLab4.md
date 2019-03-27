@@ -269,8 +269,8 @@ Example below:
 
 8. Configure the settings as per the screenshot below replacing ‘Source Location’ and ‘Source Resource Group’ for your own values then click ‘OK’:
 
-<img src="images/Lab4b_8a.png" width="624"/>
-<img src="images/Lab4b_8b.png" width="624"/>
+<img src="images/Lab4b_8a.png" width="312"/>
+<img src="images/Lab4b_8b.png" width="312"/>
 
 9. Select your VM from the list and click ‘OK’:
  
@@ -287,11 +287,11 @@ Example below:
 12. Click on ‘Enable Replication’ and monitor the progress via the Azure portal notification(s):
 
 <img src="images/Lab4b_12a.png" width="624"/>
-<img src="images/Lab4b_12b.png" width="624"/>
+<img src="images/Lab4b_12b.png" width="312"/>
 
 13.	Once replication has been enabled click on ‘Replicated Items’:
 
-<img src="images/Lab4b_13.png" width="624"/>
+<img src="images/Lab4b_13.png" width="312"/>
 
 14. Verify your VM is marked as healthy and click on ‘Enabling Protection’ to monitor progress of replication:
 
@@ -308,8 +308,8 @@ Example below:
 
 17. Click ‘Yes’ to the warning about test failover, and then click ‘OK’ at the failover screen:
 
-<img src="images/Lab4b_17a.png" width="624"/>
-<img src="images/Lab4b_17b.png" width="624"/>
+<img src="images/Lab4b_17a.png" width="312"/>
+<img src="images/Lab4b_17b.png" width="312"/>
 
 18. Click the notification in the Azure portal to monitor failover progress:
  
@@ -318,7 +318,8 @@ Example below:
 
 19. Verify the failed over VM is now running in the target region:
 
-<img src="images/Lab4b_19.png" width="624"/>
+<img src="images/Lab4b_19a.png" width="624"/>
+<img src="images/Lab4b_19b.png" width="624"/>
 
 20.	Start typing “Recovery Services Vault’ into the search bar at the top of the screen until the Recovery Services Vault resource is available, then click on it:
  
