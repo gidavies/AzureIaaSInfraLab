@@ -18,8 +18,9 @@ This set of labs provides the hands on element for the Moving to Infrastructure 
 
 # Pre-requisites for the lab
 
-For this lab it is assumed that you have:
+For this series of labs it is assumed that you have:
 - An Azure subscription (your own or a [free trial](https://azure.microsoft.com/en-us/free/)).
-- A text or code editor such as [Visual Studio Code](https://code.visualstudio.com/). 
+- The [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) installed.
+- [Visual Studio (community or greater)](https://visualstudio.microsoft.com/vs/community/) installed. 
 
-[Lab 1: Create a virtual machine in the portal ->](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md)
+[Lab 1: Provision a server via the Azure Portal and use DSC to configure the IIS role ->](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md)
