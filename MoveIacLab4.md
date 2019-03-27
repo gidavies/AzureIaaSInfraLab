@@ -345,6 +345,6 @@ Example below:
 25. Verify that the VM is replicating back to its original region from its failed over region:
 
 <img src="images/Lab4b_25a.png" width="624"/>
-<img src="images/Lab4b_25b.png" width="624"/>
+<img src="images/Lab4b_25b.png" width="312"/>
 
 [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md) | [Lab 5: IaaS Automation](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab5.md)
