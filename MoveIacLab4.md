@@ -340,7 +340,7 @@ Example below:
 24.	Click ‘OK’ at the Re-protect screen:
 
 <img src="images/Lab4b_24a.png" width="624"/>
-<img src="images/Lab4b_1b.png" width="624"/>
+<img src="images/Lab4b_24b.png" width="624"/>
 
 25. Verify that the VM is replicating back to its original region from its failed over region:
 
