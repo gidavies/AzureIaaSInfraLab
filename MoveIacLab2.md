@@ -112,6 +112,6 @@ This is now taking it's value from the newly added parameter. Click OK and then 
 
 <img src="images/Lab2_15.jpg" width="624"/>
 
-6. Try creating another VM but selecting a VM size from your options. Again, create a new resource group, add a unique suffix to the parameters and remember to delete the resource group once you've created and validated it.
+6. No need to deploy another VM as this part was to show you how to customise the ARM Template but if you do create another VM then again, create a new resource group, add a unique suffix to the parameters and remember to delete the resource group once you've created and validated it.
 
 [Lab 1: Provision a server via the Azure Portal and use DSC to configure the IIS role](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md) | [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md)
