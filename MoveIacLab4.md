@@ -83,7 +83,7 @@
  
 17. Click on ‘SSL Settings’
 
-<img src="images/Lab4_17.png" width="624"/>
+<img src="images/Lab4_17.png" width="312"/>
 
 18. Set ‘HTTPS Only’ to ‘Off’
  
@@ -98,11 +98,14 @@
 <img src="images/Lab4_20.png" width="624"/>
  
 21. Open a new InPrivate / Incognito / Private Browsing tab in your browser and paste in the HTTP address for your web app. Verify you can see your edited home page
+
+<img src="images/Lab4_21.png" width="624"/>
  
 22. Repeat all previous steps to create another Web App and another App Service plan using names that easily identify them being different to the existing ones. 
 IMPORTANT – Ensure to choose UK West as the region for your App Service plan
 Example below:
 
+```html
 <!DOCTYPE html>
 <html>
 <body>
@@ -113,83 +116,46 @@ Example below:
 
 </body>
 </html>
+```
+<img src="images/Lab4_22.png" width="624"/>
+<img src="images/Lab4_22b.png" width="624"/>
+<img src="images/Lab4_22c.png" width="624"/>
 
-
- 
- 
-
- 
 23. You should now have 2 Web Apps, both with SSL disabled, running in different App Service Plans in different geographical regions
  
-
+<img src="images/Lab4_23.png" width="624"/>
+<img src="images/Lab4_23b.png" width="624"/>
+<img src="images/Lab4_23c.png" width="624"/>
  
-	 
-
-
-
-
-
-
-
 24. In the Azure portal, type ‘Traffic Manager’ in the search box at the top until ‘Traffic Manager profiles’ is displayed, then click on it
  
+<img src="images/Lab4_24.png" width="624"/>
 
 25. Click ‘Add’
  
-
-
-
-
-
-
-
-
-
-
-
+<img src="images/Lab4_25.png" width="624"/>
 
 26. Choose an appropriate name for this Traffic Manager profile, leaving all other settings as per screenshot below and then click ‘Create’
  
-
- 
+<img src="images/Lab4_26.png" width="624"/>
+<img src="images/Lab4_26b.png" width="312"/>
 
 27. Once the profile has been created click on it
  
+<img src="images/Lab4_27.png" width="624"/>
+<img src="images/Lab4_27b.png" width="624"/>
 
- 
 28. Click on ‘Configuration’
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="images/Lab4_28.png" width="312"/>
 
 29. Edit the settings to reflect the screenshot below and click ‘Save’
  
-
-
-
-
-
-
-
-
-
-
-
+<img src="images/Lab4_29.png" width="312"/>
 
 30. Click on ‘Endpoints’
  
+<img src="images/Lab4_30.png" width="624"/>
 
 31. Click on ‘Add’
  
