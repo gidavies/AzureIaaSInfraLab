@@ -1,6 +1,6 @@
 # Lab 3: Creating ARM templates from scratch
 
-[Lab 2: Work with an ARM template from an existing resource](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab2.md) | [Home](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Lab 4: Failover between regions](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab4.md)
+[<- Lab 2: Work with an ARM template from an existing resource](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab2.md) | [Home](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Lab 4: Failover between regions ->](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab4.md)
 
 
 This lab will walk through some of the options for creating ARM templates.
@@ -174,4 +174,4 @@ Try selecting different parameters, variables and resources.
 
 Feel free to deploy (and later delete) anything you've created but for this lab it's not necessary, understanding that you can deploy directly from Visual Studio is the aim.
 
-[Lab 2: Work with an ARM template from an existing resource](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab2.md) | [Home](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Lab 4: Failover between regions](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab4.md)
+[<- Lab 2: Work with an ARM template from an existing resource](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab2.md) | [Home](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Lab 4: Failover between regions ->](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab4.md)

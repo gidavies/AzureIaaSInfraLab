@@ -1,6 +1,6 @@
 # Lab 2: Work with an ARM template from an existing resource
 
-[Lab 1: Provision a server via the Azure Portal and use DSC to configure the IIS role](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md) | [Home](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md)
+[<- Lab 1: Provision a server via the Azure Portal and use DSC to configure the IIS role](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md) | [Home](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Lab 3: Creating ARM templates from scratch ->](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md)
 
 This lab will step through exporting an ARM template from a virtual machine and then reusing it as Infrastructure as Code in the Azure Portal.
 
@@ -116,4 +116,4 @@ This is now taking it's value from the newly added parameter. Click OK and then 
 
 6. No need to deploy another VM as this part was to show you how to customise the ARM Template but if you do create another VM then again, create a new resource group, add a unique suffix to the parameters and remember to delete the resource group once you've created and validated it.
 
-[Lab 1: Provision a server via the Azure Portal and use DSC to configure the IIS role](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md) | [Home](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md)
+[<- Lab 1: Provision a server via the Azure Portal and use DSC to configure the IIS role](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab1.md) | [Home](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Lab 3: Creating ARM templates from scratch ->](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md)
