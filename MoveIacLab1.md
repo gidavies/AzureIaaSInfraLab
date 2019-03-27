@@ -48,16 +48,16 @@ Click ‘Create a resource’ and start typing ‘Automation’ until the option
 
 11.	Fill in the parameters as per the screenshot below and then click ‘Create’:
 
-<img src="images/Lab1_16.png" width="624"/>
+<img src="images/Lab1_17.png" width="624"/>
 
 12. Confirm your VM from step #8 has successfully completed provisioning by choosing ‘Virtual machines’ from the left hand menu (if you do not have a Virtual machines shortcut then just type the name of your VM into the search box at the top):
 
-<img src="images/Lab1_17.png" width="624"/>
 <img src="images/Lab1_18.png" width="624"/>
+<img src="images/Lab1_19.png" width="624"/>
 
 13. Verify the status is ‘Running’ and note the public IP Address that has been assigned:
 
-<img src="images/Lab1_19.png" width="624"/>
+<img src="images/Lab1_20.png" width="624"/>
 
 14. RDP into the VM by clicking the ‘Connect’ button at the top using the credentials you provided in step #5 and verify you can logon on successfully:
 
