@@ -29,40 +29,40 @@
 
 7. The remainder of the ‘Networking’ settings can be left as default including the creation of a new public IP Address for your VM:
 
-<img src="images/Lab1_10.jpg" width="624"/>
+<img src="images/Lab1_10.png" width="624"/>
 
 8. Click ‘Review + create’ and then ‘Create’ once the validation has passed:
 
-<img src="images/Lab1_11.jpg" width="624"/>
-<img src="images/Lab1_12.jpg" width="624"/>
+<img src="images/Lab1_11.png" width="624"/>
+<img src="images/Lab1_12.png" width="624"/>
 
 9. Whilst the VM is provisioning, we can create an Azure Automation account which is required to setup and apply DSC profiles.
 
 Click ‘Create a resource’ and start typing ‘Automation’ until the option of creating an Automation account appears and then click on it:
 
-<img src="images/Lab1_13.jpg" width="624"/>
+<img src="images/Lab1_13.png" width="624"/>
 
 10. Click on the blue ‘Create’ button at the bottom of the screen:
 
-<img src="images/Lab1_14.jpg" width="624"/>
+<img src="images/Lab1_14.png" width="624"/>
 
 11.	Fill in the parameters as per the screenshot below and then click ‘Create’:
 
-<img src="images/Lab1_15.jpg" width="624"/>
+<img src="images/Lab1_15.png" width="624"/>
 
 12. Confirm your VM from step #8 has successfully completed provisioning by choosing ‘Virtual machines’ from the left hand menu (if you do not have a Virtual machines shortcut then just type the name of your VM into the search box at the top):
 
-<img src="images/Lab1_16.jpg" width="624"/>
-<img src="images/Lab1_17.jpg" width="624"/>
+<img src="images/Lab1_16.png" width="624"/>
+<img src="images/Lab1_17.png" width="624"/>
 
 13. Verify the status is ‘Running’ and note the public IP Address that has been assigned:
 
-<img src="images/Lab1_18.jpg" width="624"/>
+<img src="images/Lab1_18.png" width="624"/>
 
 14. RDP into the VM by clicking the ‘Connect’ button at the top using the credentials you provided in step #5 and verify you can logon on successfully:
 
-<img src="images/Lab1_19.jpg" width="624"/>
-<img src="images/Lab1_20.jpg" width="624"/>
+<img src="images/Lab1_19.png" width="624"/>
+<img src="images/Lab1_20.png" width="624"/>
 
 
 
