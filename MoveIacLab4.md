@@ -57,63 +57,46 @@
 
 11. In ‘Solution Explorer’ right click your Web App and choose ‘Publish’
  
- 
-
-
-
-
-
-
-
-
-
-
-
+<img src="images/Lab4_11a.png" width="624"/>
+<img src="images/Lab4_11b.png" width="624"/>
 
 12. Choose ‘App Service’ and ‘Create New’ from the options and then click ‘Publish’ (note if you’ve not logged into an Azure subscription already you may be prompted to do so)
  
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="images/Lab4_12.png" width="624"/>
 
 13. Choose an ‘App Name’ that is easily identifiable and choose an appropriate Resource Group for your web app, alternatively you can create a new one. For ‘Hosting Plan’ select ‘New’ and choose an App Service Plan name that is easily identifiable. Choose a location of ‘UK South’ and a size of ‘S1’. Then click ‘Create’
  
-
- 
-
-
+<img src="images/Lab4_13.png" width="624"/>
+<img src="images/Lab4_13b.png" width="624"/>
 
 14. In the Azure portal, type in ‘App Services’ in the search bar at the top until the ‘App Services’ resource is displayed and then click it
- 
+
+<img src="images/Lab4_14.png" width="624"/>
+
 15. Verify your Web App appears
  
+<img src="images/Lab4_15.png" width="624"/>
 
 16. Click on your Web App to display the overview dashboard
 
+<img src="images/Lab4_16.png" width="624"/>
  
-
 17. Click on ‘SSL Settings’
- 
 
+<img src="images/Lab4_17.png" width="624"/>
 
 18. Set ‘HTTPS Only’ to ‘Off’
  
+<img src="images/Lab4_18.png" width="624"/>
 
 19. Click on ‘Overview’ on the left-hand menu for the Web App
- 
 
+<img src="images/Lab4_19.png" width="624"/>
+ 
 20. Click on ‘Restart’
- 
 
+<img src="images/Lab4_20.png" width="624"/>
+ 
 21. Open a new InPrivate / Incognito / Private Browsing tab in your browser and paste in the HTTP address for your web app. Verify you can see your edited home page
  
 22. Repeat all previous steps to create another Web App and another App Service plan using names that easily identify them being different to the existing ones. 
