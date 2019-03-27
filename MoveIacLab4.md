@@ -151,70 +151,51 @@ Example below:
 
 29. Edit the settings to reflect the screenshot below and click ‘Save’
  
-<img src="images/Lab4_29.png" width="312"/>
+<img src="images/Lab4_29.png" width="624"/>
 
 30. Click on ‘Endpoints’
  
-<img src="images/Lab4_30.png" width="624"/>
+<img src="images/Lab4_30.png" width="312"/>
 
 31. Click on ‘Add’
  
-
-
-
-
-
-
+<img src="images/Lab4_31.png" width="624"/>
 
 32. Add the first Web App you created ensuring you choose ‘App Service’ on the drop-down menu and click ‘OK’
  
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="images/Lab4_32.png" width="624"/>
 
 33. Repeat the process for your second Web App (note the priority is auto set to 2)
- 
+
+<img src="images/Lab4_33.png" width="624"/>
 
 34. Verify that both end points show as ‘Online’ under ‘Monitor Status’ (note you may need to wait a brief period whilst the initial probe is carried out during which time you will see ‘Checking endpoint’)
  
+<img src="images/Lab4_34.png" width="624"/>
 
 35. In the ‘Overview’ screen of your TM profile, note the DNS name that has been created
  
-
+<img src="images/Lab4_35.png" width="624"/>
 
 36. If you are able, log onto your DNS registrar / provider for your domain, and create a CNAME DNS record that references the DNS name of your traffic manager identified in the previous step
  
+<img src="images/Lab4_36.png" width="624"/>
 
 37. Verify that name resolution works correctly and your custom domain resolves to the traffic manager DNS name
  
-
-
-
-
-
-
+<img src="images/Lab4_37.png" width="624"/>
 
 38. In the Azure portal, type ‘App Service’ in the search bar until you see the ‘App Services’ resource appear and click on it
 
+<img src="images/Lab4_38.png" width="624"/>
  
-
-
 39. Click on your first Web App
  
+<img src="images/Lab4_39.png" width="624"/>
 
 40. Click on ‘Custom Domains’ from the left-hand menu
  
-
+<img src="images/Lab4_40.png" width="624"/>
 
 41. Click on ‘Add hostname’
  
