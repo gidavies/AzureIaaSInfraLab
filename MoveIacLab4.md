@@ -250,9 +250,10 @@ Example below:
 <img src="images/Lab4b_3.png" width="624"/>
 
 4. Enter an appropriate name for the Recovery Services Vault and leave all other settings as per screenshot below and then click ‘Create’:
-<span style="background-color: #FFFF00">Important – The Recovery Services Vault must be created in a different Azure region (geo) to the VM you wish to protect. If your VM is running in UK South, create the RSV in UK West. If your VM is running in UK West, create the RSV in UK South</span>
+
+>Important – The Recovery Services Vault must be created in a different Azure region (geo) to the VM you wish to protect. If your VM is running in UK South, create the RSV in UK West. If your VM is running in UK West, create the RSV in UK South
  
-<img src="images/Lab4b_4.png" width="624"/>
+<img src="images/Lab4b_4.png" width="312"/>
 
 5. Verify the Recovery Services Vault created OK and is now visible in the portal and then click on it:
   
