@@ -2,30 +2,30 @@
 
 1. Log onto the [Azure Portal](https://portal.azure.com) (https://portal.azure.com):
 
-<img src="images/Lab1_1.jpg" width="624"/>
+<img src="images/Lab1_1.png" width="624"/>
 
 2. Choose ‘Create a resource’:
 
-<img src="images/Lab1_2.jpg" width="624"/>
+<img src="images/Lab1_2.png" width="624"/>
 
 3. Start typing ‘Virtual Machine’ until the option to create a Virtual Machine is displayed and then click on it:
 
-<img src="images/Lab1_3.jpg" width="624"/>
+<img src="images/Lab1_3.png" width="624"/>
 
 4. Click the blue ‘Create’ button at the bottom of the screen:
 
-<img src="images/Lab1_4.jpg" width="624"/>
+<img src="images/Lab1_4.png" width="624"/>
 
 5. Fill in the parameters as per the screenshot below for your virtual machine:
 
-<img src="images/Lab1_5.jpg" width="624"/>
-<img src="images/Lab1_6.jpg" width="624"/>
-<img src="images/Lab1_7.jpg" width="624"/>
+<img src="images/Lab1_5.png" width="624"/>
+<img src="images/Lab1_6.png" width="624"/>
+<img src="images/Lab1_7.png" width="624"/>
 
 6. On the ‘Networking’ tab, if you do not have a demo / test virtual network (VNET) already provisioned then choose ‘Create new’ and fill in the parameters as per screenshot below:
 
-<img src="images/Lab1_8.jpg" width="624"/>
-<img src="images/Lab1_9.jpg" width="624"/>
+<img src="images/Lab1_8.png" width="624"/>
+<img src="images/Lab1_9.png" width="624"/>
 
 7. The remainder of the ‘Networking’ settings can be left as default including the creation of a new public IP Address for your VM:
 
