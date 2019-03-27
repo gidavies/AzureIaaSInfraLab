@@ -88,83 +88,83 @@ Click ‘Create a resource’ and start typing ‘Automation’ until the option
 
 20.	Click on ‘labautomation – State configuration (DSC) to get back to the main dashboard:
 
-<img src="images/Lab1_29.png" width="624"/>
+<img src="images/Lab1_28_1.png" width="624"/>
 
 21.	Click on ‘Configurations’ and verify that the WindowsIISServerConfig PS configuration imported successfully:
 
-<img src="images/Lab1_30.png" width="624"/>
+<img src="images/Lab1_29.png" width="624"/>
 
 22.	Click on ‘WindowsIISServerConfig’:
 
-<img src="images/Lab1_31.png" width="624"/>
+<img src="images/Lab1_30.png" width="624"/>
 
 23.	Click on ‘Compile’ and ‘Yes’:
 
+<img src="images/Lab1_31.png" width="624"/>
 <img src="images/Lab1_32.png" width="624"/>
-<img src="images/Lab1_33.png" width="624"/>
 
 24.	Click on ‘labautomation – State configuration (DSC) to get back to the main dashboard:
 
-<img src="images/Lab1_34.png" width="624"/>
+<img src="images/Lab1_33.png" width="624"/>
 
 25.	Click on ‘Compiled configurations’ and then click ‘Refresh’. Note that the WindowsIISServerConfig does not appear:
 
-<img src="images/Lab1_35.png" width="624"/>
+<img src="images/Lab1_34.png" width="624"/>
 
 26.	Click on ‘Configurations’ and then ‘WindowsIISServerConfig’:
 
-<img src="images/Lab1_36.png" width="624"/>
+<img src="images/Lab1_35.png" width="624"/>
 
 27.	Note that the status is marked as ‘Suspended’. Click on the status and note the exception error displayed:
 
+<img src="images/Lab1_36.png" width="624"/>
 <img src="images/Lab1_37.png" width="624"/>
-<img src="images/Lab1_38.png" width="624"/>
 
 28.	This error message is displayed because we haven’t (yet) loaded the PS module for IIS administration into our DSC repository. 
 
 Delete the WindowsIISServerConfig module from the pull server clicking ‘Yes’ at the prompt:
 
-<img src="images/Lab1_39.png" width="624"/>
+<img src="images/Lab1_38.png" width="624"/>
 
 29.	 Click on ‘lab automation – State configuration (DSC)’ to return to the main dashboard:
 
-<img src="images/Lab1_40.png" width="624"/>
+<img src="images/Lab1_39.png" width="624"/>
 
 30.	Click on ‘Modules’ from the left-hand side menu:
 
-<img src="images/Lab1_41.png" width="624"/>
+<img src="images/Lab1_40.png" width="624"/>
 
 31.	Click on ‘Browse Gallery’:
 
-<img src="images/Lab1_42.png" width="624"/>
+<img src="images/Lab1_41.png" width="624"/>
 
 32.	Type ‘xWeb’ and press enter:
 
-<img src="images/Lab1_43.png" width="624"/>
+<img src="images/Lab1_42.png" width="624"/>
 
 33.	Click on the xWebAdministration module and choose ‘Import’ and ‘OK’:
 
+<img src="images/Lab1_43.png" width="624"/>
 <img src="images/Lab1_44.png" width="624"/>
 <img src="images/Lab1_45.png" width="624"/>
-<img src="images/Lab1_46.png" width="624"/>
 
 34.	Click ‘labautomation – Modules’ to confirm that the xWebAdministration module has now been loaded (it may show as importing for a brief period):
 
-<img src="images/Lab1_47.png" width="624"/>
+<img src="images/Lab1_46.png" width="624"/>
 
 35.	Click on ‘State configuration (DSC)’ to return to the DSC dashboard and repeat steps #17 thru #23 to import the WindowsIISServerConfig DSC profile again:
 
+<img src="images/Lab1_47.png" width="624"/>
 <img src="images/Lab1_48.png" width="624"/>
-<img src="images/Lab1_49.png" width="624"/>
 
 36.	Click on ‘Configurations’ and then ‘WindowsIISServerConfig’:
 
-<img src="images/Lab1_50.png" width="624"/>
+<img src="images/Lab1_49.png" width="624"/>
 
 37.	Note that the status is marked as ‘Suspended’ again. Click on the status and note the same exception error displayed as in step #27:
 
+<img src="images/Lab1_50.png" width="624"/>
 <img src="images/Lab1_51.png" width="624"/>
-<img src="images/Lab1_52.png" width="624"/>
 
 38.	Compare the version of xWebAdministration that the WindowIISServerConfig PS is looking for versus the version that we have loaded into our PS modules:
 
