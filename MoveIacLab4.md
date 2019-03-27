@@ -1,5 +1,7 @@
 # Lab 4: Failover between regions
 
+[Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md) | [Home](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Lab 5: IaaS Automation](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab5.md)
+
 # Part 1: Use Azure Traffic Manager to provide geo-redundancy for a Web App
 
 1. Load Visual Studio (Community Edition available for free here):
@@ -347,4 +349,4 @@ Example below:
 <img src="images/Lab4b_25a.png" width="624"/>
 <img src="images/Lab4b_25b.png" width="624"/>
 
-[Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md) | [Lab 5: IaaS Automation](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab5.md)
+[Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md) | [Home](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Lab 5: IaaS Automation](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab5.md)

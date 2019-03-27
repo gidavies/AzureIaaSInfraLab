@@ -1,5 +1,8 @@
 # Lab 1: Provision a server via the Azure Portal and use DSC to configure the IIS role
 
+[<- Introduction](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Home](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Lab 2: Work with an ARM template from an existing resource](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab2.md)
+
+
 1. Log onto the [Azure Portal](https://portal.azure.com) (https://portal.azure.com):
 
 <img src="images/Lab1_1.png" width="624"/>
@@ -226,16 +229,4 @@ Click ‘Export’ at the top of the screen and save the WindowsIISServerConfig 
 <img src="images/Lab1_70.png" width="624"/>
 <img src="images/Lab1_71.png" width="624"/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-[<- Introduction](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Lab 2: Work with an ARM template from an existing resource](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab2.md)
+[<- Introduction](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Home](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/README.md) | [Lab 2: Work with an ARM template from an existing resource](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab2.md)
