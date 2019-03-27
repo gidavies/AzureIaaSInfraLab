@@ -195,62 +195,44 @@ Example below:
 
 40. Click on ‘Custom Domains’ from the left-hand menu
  
-<img src="images/Lab4_40.png" width="624"/>
+<img src="images/Lab4_40.png" width="312"/>
 
 41. Click on ‘Add hostname’
- 
+
+<img src="images/Lab4_41.png" width="624"/>
+
 42. Type the DNS CNAME record from step #36 and click ‘Validate’
  
-
-
-
-
-
-
-
-
-
-
+<img src="images/Lab4_42.png" width="624"/>
 
 43. Verify that domain validation passed successfully and then click ‘Add hostname’
  
+<img src="images/Lab4_43.png" width="624"/>
 
 44. Repeat steps #40 thru #43 for your second Web App
 
-
-
-
-
-
-
-
-
-
 45. Open a new InPrivate / Incognito / Private Browsing tab in your browser and paste in the HTTP address for your custom traffic manager record. Verify connectivity to your first Web App
 
+<img src="images/Lab4_45.png" width="624"/>
  
 46. In the Azure portal, on the overview page for your first Web App click ‘Stop’
  
-
+<img src="images/Lab4_46.png" width="624"/>
 
 47. Still in the Azure portal, start typing ‘Traffic Manager’ in the search box at the top until the ‘Traffic Manager profiles’ resource is displayed, then click it
 
- 
-
-
-
-
+<img src="images/Lab4_47.png" width="624"/>
 
 48. Click on ‘Endpoints’
  
+<img src="images/Lab4_48.png" width="624"/>
 
 49. Verify that your first Web App is marked as ‘Stopped’
  
+<img src="images/Lab4_49.png" width="624"/>
 
 50. Open a new InPrivate / Incognito / Private Browsing tab in your browser and paste in the HTTP address for your custom traffic manager record. Verify connectivity to your second Web App
  
-
-
-
+<img src="images/Lab4_50.png" width="624"/>
 
 [Lab 3: Creating ARM templates from scratch](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab3.md) | [Lab 5: IaaS Automation](https://github.com/gidavies/MovingToInfraAsCodeLab/blob/master/MoveIacLab5.md)
