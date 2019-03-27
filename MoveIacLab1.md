@@ -6,7 +6,7 @@
 
 2. Choose ‘Create a resource’:
 
-<img src="images/Lab1_2.png" width="624"/>
+<img src="images/Lab1_2.png" width="312"/>
 
 3. Start typing ‘Virtual Machine’ until the option to create a Virtual Machine is displayed and then click on it:
 
@@ -52,7 +52,7 @@ Click ‘Create a resource’ and start typing ‘Automation’ until the option
 
 12. Confirm your VM from step #8 has successfully completed provisioning by choosing ‘Virtual machines’ from the left hand menu (if you do not have a Virtual machines shortcut then just type the name of your VM into the search box at the top):
 
-<img src="images/Lab1_17.png" width="624"/>
+<img src="images/Lab1_17.png" width="312"/>
 <img src="images/Lab1_18.png" width="624"/>
 
 13. Verify the status is ‘Running’ and note the public IP Address that has been assigned:
@@ -70,7 +70,7 @@ Click ‘Create a resource’ and start typing ‘Automation’ until the option
 
 16.	Click on ‘State configuration (DSC)’:
 
-<img src="images/Lab1_23.png" width="624"/>
+<img src="images/Lab1_23.png" width="312"/>
 
 17.	Click on ‘Gallery’:
 
@@ -83,8 +83,8 @@ Click ‘Create a resource’ and start typing ‘Automation’ until the option
 19.	Click on ‘Import’ and then the blue ‘OK’ button:
 
 <img src="images/Lab1_26.png" width="624"/>
-<img src="images/Lab1_27.png" width="624"/>
-<img src="images/Lab1_28.png" width="624"/>
+<img src="images/Lab1_27.png" width="312"/>
+<img src="images/Lab1_28.png" width="312"/>
 
 20.	Click on ‘labautomation – State configuration (DSC) to get back to the main dashboard:
 
@@ -132,7 +132,7 @@ Delete the WindowsIISServerConfig module from the pull server clicking ‘Yes’
 
 30.	Click on ‘Modules’ from the left-hand side menu:
 
-<img src="images/Lab1_40.png" width="624"/>
+<img src="images/Lab1_40.png" width="312"/>
 
 31.	Click on ‘Browse Gallery’:
 
@@ -144,9 +144,9 @@ Delete the WindowsIISServerConfig module from the pull server clicking ‘Yes’
 
 33.	Click on the xWebAdministration module and choose ‘Import’ and ‘OK’:
 
-<img src="images/Lab1_43.png" width="624"/>
-<img src="images/Lab1_44.png" width="624"/>
-<img src="images/Lab1_45.png" width="624"/>
+<img src="images/Lab1_43.png" width="312"/>
+<img src="images/Lab1_44.png" width="312"/>
+<img src="images/Lab1_45.png" width="312"/>
 
 34.	Click ‘labautomation – Modules’ to confirm that the xWebAdministration module has now been loaded (it may show as importing for a brief period):
 
@@ -154,7 +154,7 @@ Delete the WindowsIISServerConfig module from the pull server clicking ‘Yes’
 
 35.	Click on ‘State configuration (DSC)’ to return to the DSC dashboard and repeat steps #17 thru #23 to import the WindowsIISServerConfig DSC profile again:
 
-<img src="images/Lab1_47.png" width="624"/>
+<img src="images/Lab1_47.png" width="312"/>
 <img src="images/Lab1_48.png" width="624"/>
 
 36.	Click on ‘Configurations’ and then ‘WindowsIISServerConfig’:
@@ -191,8 +191,8 @@ Click ‘Export’ at the top of the screen and save the WindowsIISServerConfig 
 43.	Click on ‘Add’ and browse to the edited PS file you created in step #40 clicking ‘OK’ to confirm:
 
 <img src="images/Lab1_58.png" width="624"/>
-<img src="images/Lab1_59.png" width="624"/>
-<img src="images/Lab1_60.png" width="624"/>
+<img src="images/Lab1_59.png" width="312"/>
+<img src="images/Lab1_60.png" width="312    "/>
 
 44.	Repeat steps #22 thru #25 to compile the edited WindowsIISServerConfig PS and add it to the pull server. Note that this time it should load successfully:
 
@@ -210,15 +210,15 @@ Click ‘Export’ at the top of the screen and save the WindowsIISServerConfig 
 47.	Pick the VM you provisioned at the start of this lab and click connect:
 
 <img src="images/Lab1_65.png" width="624"/>
-<img src="images/Lab1_66.png" width="624"/>
+<img src="images/Lab1_66.png" width="312"/>
 
 48.	Choose the WindowsIISServerConfig profile from the dropdown menu leaving everything else as default, then click OK:
 
-<img src="images/Lab1_67.png" width="624"/>
+<img src="images/Lab1_67.png" width="312"/>
 
 49.	The VM should show “Connecting” and eventually ‘Connected’. Your VM should then show up under nodes as ‘Compliant’:
 
-<img src="images/Lab1_68.png" width="624"/>
+<img src="images/Lab1_68.png" width="312"/>
 <img src="images/Lab1_69.png" width="624"/>
 
 50.	Log onto your VM via RDP and verify that the IIS role is now installed. You can also look in the Windows Event Viewer to verify configuration was done via Azure Automation (DSC):
