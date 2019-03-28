@@ -150,7 +150,7 @@ you can also select the template and add it into the library for reuse:
 
 <img src="images/Lab3_33.jpg" width="624"/>
 
-8. Open the JSON Outline view (usually on the left hand side of Visual Studio). You may want to pin it open for convenience. THis allows you to see the elements in the ARM Template and if you click on an element (e.g. a parameter) then it selects that element in the ARM Template. This can make understanding and navigating around the ARM Template much easier:
+8. Open the JSON Outline view (usually on the left hand side of Visual Studio). You may want to pin it open for convenience. This allows you to see the elements in the ARM Template and if you click on an element (e.g. a parameter) then it selects that element in the ARM Template. This can make understanding and navigating around the ARM Template much easier:
 
 <img src="images/Lab3_34.jpg" width="624"/>
 

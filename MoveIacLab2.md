@@ -36,6 +36,8 @@ The Virtual Machine created in the previous lab generates a large number of para
 
 <img src="images/Lab2_4_1.jpg" width="624"/>
 
+Note that the VM you created above is not needed so delete it and/or it's resource group at any point here.
+
 ## Part 2: Creating new resources from templates in the library
 
 1. In the templates click on your newly created template:
@@ -76,7 +78,7 @@ This appears to be an incorrect error and the virtual machine will be successful
 
 <img src="images/Lab2_12.jpg" width="624"/>
 
-3. We want to provide a list of sizes that may be used. First that requires a new parameter in the ARM template file. At the end of the current parameters we will add a new VM size parameter. At line 40 add the following, noting that the final existing parameter needs to have a comma added after it as it is no longer the last member of the parameters array:
+3. We want to provide a list of sizes that may be used. First that requires a new parameter in the ARM template file. At the end of the current parameters we will add a new VM size parameter. At line 40 replace the virtualmachineSize section with the following, noting that the final existing parameter needs to have a comma added after it as it is no longer the last member of the parameters array:
 
 ```javascript
         ,
