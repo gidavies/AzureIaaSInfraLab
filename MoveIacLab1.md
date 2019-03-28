@@ -179,7 +179,7 @@ Click ‘Export’ at the top of the screen and save the WindowsIISServerConfig 
 <img src="images/Lab1_53.png" width="624"/>
 <img src="images/Lab1_54.png" width="624"/>
 
-40.	Open the PS script with a text editor and change the value of the xWebAdministration version from 1.19.0.0 to 2.5.00 and save it:
+40.	Open the PS script with a text editor and change the value of the xWebAdministration version from 1.19.0.0 to 2.5.0.0 and save it:
 
 <img src="images/Lab1_55.png" width="624"/>
 
